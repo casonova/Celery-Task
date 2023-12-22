@@ -1,11 +1,8 @@
 import logging
 import os
-from datetime import datetime
 
 import pytz
 from celery import shared_task
-from django.core.management.base import BaseCommand
-from django.utils import timezone
 
 from mainapp.models import Customer
 from project.settings import BASE_DIR
